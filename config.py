@@ -3,7 +3,7 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config(object):
-    SECRET_KEY = os.environ.get('SECRET_KEY') or '71c93ffb-9274-4ca2-8327-f7a83cf86341'
+    SECRET_KEY = os.environ.get('SECRET_KEY') or '4524a8e1-5f28-492e-bf83-c15f05e30511'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'mousafirstproject'
     BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'mMNLKqBHH4DJmRB0MWXE4ONU2luH7FfSj/6/2TNEXRUp4cXrCnuO69pZsO1gH9QtdrVQxTEt/Ujf+AStILPNmQ=='
@@ -19,7 +19,7 @@ class Config(object):
 
     ### Info for MS Authentication ###
     ### As adapted from: https://github.com/Azure-Samples/ms-identity-python-webapp ###
-    CLIENT_SECRET = "6nc8Q~tbp.U6lynSscRy~_bEJLivsbfOuQi0Rbz9"
+    CLIENT_SECRET = "aj38Q~rdBz7KG.FG1cgyxpvvZt3UfhNRwEOYwcPF"
     # In your production app, Microsoft recommends you to use other ways to store your secret,
     # such as KeyVault, or environment variable as described in Flask's documentation here:
     # https://flask.palletsprojects.com/en/1.1.x/config/#configuring-from-environment-variables
@@ -30,7 +30,7 @@ class Config(object):
     AUTHORITY = "https://login.microsoftonline.com/common"  # For multi-tenant app, else put tenant name
     # AUTHORITY = "https://login.microsoftonline.com/mousafirstproject"
 
-    CLIENT_ID = "ddf21d23-7895-4420-bf48-13fd0871aa36"
+    CLIENT_ID = "3b756520-d855-48ea-9a10-717a0f56559a"
 
     REDIRECT_PATH = "/getAToken"  # Used to form an absolute URL; must match to app's redirect_uri set in AAD
 
