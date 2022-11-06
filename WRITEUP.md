@@ -1,5 +1,7 @@
 # Write-up Template
 
+# It's recommended to read this pdf file. [Projects summary](https://github.com/VE5ETA/cd1756-Azure-Applications-project/blob/main/screenshots/mousafirstproject.pdf)
+
 ### Analyze, choose, and justify the appropriate resource option for deploying the app.
 
 *For **both** a VM or App Service solution for the CMS app:*
@@ -38,7 +40,6 @@
 
 
 - *Choose the appropriate solution (VM or App Service) for deploying the app*
-- *Justify your choice*
 
 |  Points | |
 | ----------- | -----------|
