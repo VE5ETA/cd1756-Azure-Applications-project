@@ -3,7 +3,7 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config(object):
-    SECRET_KEY = os.environ.get('SECRET_KEY') or '4524a8e1-5f28-492e-bf83-c15f05e30511'
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'mousafirstproject'
     BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'mMNLKqBHH4DJmRB0MWXE4ONU2luH7FfSj/6/2TNEXRUp4cXrCnuO69pZsO1gH9QtdrVQxTEt/Ujf+AStILPNmQ=='
