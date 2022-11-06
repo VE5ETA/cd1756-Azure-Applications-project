@@ -2,13 +2,14 @@
 The flask application package.
 """
 
-import FlaskWebProject.views
 import logging
 from flask import Flask
 from config import Config
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from flask_session import Session
+
+import FlaskWebProject.views
 
 app = Flask(__name__)
 app.config.from_object(Config)
