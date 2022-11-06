@@ -13,6 +13,7 @@ app = Flask(__name__)
 app.config.from_object(Config)
 # TODO: Add any logging levels and handlers with app.logger ✅
 app.logger.setLevel(logging.INFO)
+wsgi_app = app.wsgi_app
 streamHandler = logging.StreamHandler()
 streamHandler.setLevel(logging.INFO)
 app.logger.addHandler(streamHandler)
