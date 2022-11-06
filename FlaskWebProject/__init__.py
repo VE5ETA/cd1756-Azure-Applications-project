@@ -2,7 +2,7 @@
 The flask application package.
 """
 
-from FlaskWebProject import views
+import FlaskWebProject.views
 import logging
 from flask import Flask
 from config import Config
